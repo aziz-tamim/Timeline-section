@@ -67,3 +67,59 @@ body {
         transform: translateX(-50%);
     }
 }
+@media (max-width: 992px) {
+    .timeline2 {
+        padding: 30px 50px;
+        &__item {
+            span {
+                font-size: 1.2rem;
+            }
+            h3 {
+                font-size: 25px;
+                line-height: 30px;
+                font-weight: 600;
+            }
+            &__img {
+                img {
+                    width: 100%;
+                }
+            }
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+}
+@media (min-width: 320px) {
+    .timeline2 {
+        &__item {
+            span {
+                font-size: 1.1rem;
+            }
+            h3 {
+                font-size: 22px;
+                line-height: 35px;
+                font-weight: 500;
+                margin: 0;
+                margin-bottom: 10px;
+            }
+            &__img {
+                img {
+                    width: 100%;
+                }
+            }
+            p {
+                font-size: 16px;
+                line-height: 1.5;
+                margin: 0;
+                margin: 15px 0;
+            }
+        }
+    }
+    .borderad {
+        &:after {
+            width: 15px;
+            height: 15px;
+        }
+    }
+}
