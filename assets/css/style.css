@@ -106,7 +106,7 @@ body {
   .margin-right {
     margin-right: 20px; } }
 
-@media (min-width: 320px) {
+@media (max-width: 500px) {
   .timeline1 {
     padding: 0 10px; }
     .timeline1__icon {
@@ -226,7 +226,12 @@ body {
 
 .pagination {
   padding: 40px 0;
-  text-align: center; }
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; }
   .pagination a {
     color: #fff;
     background-color: #222;
@@ -234,7 +239,6 @@ body {
     font-size: 20px;
     font-weight: 400;
     text-align: center;
-    margin-right: 10px;
     border-radius: 10px;
     text-decoration: none;
     transition: all 0.3s; }

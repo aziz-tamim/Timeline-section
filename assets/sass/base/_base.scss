@@ -5,6 +5,11 @@ body {
 .pagination {
     padding: 40px 0;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
     a {
         color: #fff;
         background-color: #222;
@@ -12,7 +17,7 @@ body {
         font-size: 20px;
         font-weight: 400;
         text-align: center;
-        margin-right: 10px;
+        // margin-right: 10px;
         border-radius: 10px;
         text-decoration: none;
         transition: all 0.3s;
